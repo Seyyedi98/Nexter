@@ -38,9 +38,10 @@ body {
   display: grid;
   grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
   grid-template-columns:
-    [sidebar-start] 8rem [sidebar-end full-start] 1fr repeat(
+    [sidebar-start] 8rem [sidebar-end full-start] 1fr [center-start] repeat(
       8,
-      minmax(min-content, 14rem)
+      [col-start] minmax(min-content, 14rem) [col-end]
     )
-    1fr;
+    [center-end]
+    1fr [full-end];
 }
