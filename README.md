@@ -1,3 +1,3 @@
 # Nexter
 
-Necster project from Jonas Schmedtmann
+Nexster project from Jonas Schmedtmann
